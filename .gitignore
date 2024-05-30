@@ -1,0 +1,6 @@
+bin/
+.env
+**/*_templ.go
+
+**/*.env
+**/*_templ.txt
