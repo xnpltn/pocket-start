@@ -1,0 +1,18 @@
+package components
+
+
+templ Header(){
+<header class="bg-blue-500 px-32">
+  <nav class="py-5 px-5 flex items-center justify-between">
+    <h1 class="font-bold text-3xl">Logo</h1>
+    <div class="flex gap-5">
+      <a class="bg-green-500 rounded p-2 cursor-pointer" hx-get="/" hx-target="#view" hx-trigger="click"
+        hx-push-url="true">Home</a>
+      <a class="bg-green-500 rounded p-2 cursor-pointer" hx-get="/about" hx-target="#view" hx-trigger="click"
+        hx-push-url="true">About</a>
+    </div>
+  </nav>
+</header>
+
+
+}
